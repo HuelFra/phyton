@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "mount_file_id": "1zNj9jeKsTDcSSpEX9ulA3HYTolZ7skzc",
+      "authorship_tag": "ABX9TyPpv61gOm7jvACCStgU1h8b",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/HuelFra/phyton/blob/main/Trabalhando%20com%20Textos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "snFwKBeCqQhL",
+        "outputId": "47da5852-0a5c-4829-feab-f47a0683c55b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá Mundo!!!!\n",
+            "\n",
+            "Olá mundo\n",
+            "Olá Mundo com aspas duplas\n",
+            " \n",
+            "10\n",
+            "\n",
+            "@!$%&#\n"
+          ]
+        }
+      ],
+      "source": [
+        "print('Olá Mundo!!!!') #Função imprimir - o famoso Olá Mundo!\n",
+        "print() #pular linha\n",
+        "\n",
+        "#Entendendo a estrutura:\n",
+        "#string [tipo de dado] = 'Olá Mundo!!! = é uma cadeia de caracteres 'str'\n",
+        "#print() [Função] = imprime pro usuário o que estiver dentro do ()\n",
+        "#[Comentario]=após o # tudo é desprezado na linha\n",
+        "#outros exemplos\n",
+        "print('Olá mundo')\n",
+        "print(\"Olá Mundo com aspas duplas\") #Não importa o uso de aspas simples ou duplas, a linguagem interpreta da mesma maneira\n",
+        "print (\" \") #cria uma linha com um espaço em branco\n",
+        "print('10') # imprime o número em forma de string\n",
+        "print() #pula uma linha\n",
+        "print('@!$%&#') #caracterese especiais como string\n",
+        "\n"
+      ]
+    }
+  ]
+}
