@@ -1,0 +1,116 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMX9ZKT/tAkNsWlVyFE55TN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/HuelFra/phyton/blob/main/Exercicio_treino1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 28,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7bMDZQsFWa2W",
+        "outputId": "7c188b7c-34fd-4952-97f5-123c966f30c4"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá mundo!\n",
+            "\n",
+            "7\n",
+            "\n",
+            "9\n",
+            "\n",
+            "10.0\n",
+            "\n",
+            "72\n",
+            "\n",
+            "Meu nome é Huel \n",
+            "\n",
+            "Meu nome é Huel\n",
+            "\n",
+            "Eu tenho 3 cachorros\n",
+            "\n",
+            "Eu tenho 3 cahorros\n",
+            "\n",
+            "lanche: 10.9\n",
+            "batata: 5.9\n",
+            "refrigerante: 3.0\n",
+            "\n",
+            "O valor da compra de 1 lanche + 1 batata + 1 refrigerante é de: 19.8\n",
+            "\n",
+            "Qual o lanche que você quer?x-egg\n",
+            "Você quer um: x-egg\n",
+            "\n",
+            "A variável Huel é do tipo: <class 'str'>\n",
+            "A variável b é do tipo: <class 'int'>\n",
+            "e a variável c é dot tipo: <class 'float'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "print ('Olá mundo!') #função imprimir\n",
+        "print()\n",
+        "print(7)\n",
+        "print()\n",
+        "print(7+2)\n",
+        "print()\n",
+        "print(7.2 + 2.8)\n",
+        "print()\n",
+        "print('7' + '2')\n",
+        "print()\n",
+        "print('Meu nome é' + ' Huel ')\n",
+        "print()\n",
+        "print('Meu nome é','Huel')\n",
+        "print()\n",
+        "print('Eu tenho',3,'cachorros')\n",
+        "print()\n",
+        "print('Eu tenho' + ' 3','cahorros')\n",
+        "print()\n",
+        "print('lanche:', 10.90)\n",
+        "print('batata:', 5.90)\n",
+        "print('refrigerante:', 3.00)\n",
+        "soma = 10.90 + 5.90 + 3.00\n",
+        "print()\n",
+        "print('O valor da compra de 1 lanche + 1 batata + 1 refrigerante é de:',soma)\n",
+        "print()\n",
+        "lanche = input('Qual o lanche que você quer?')\n",
+        "print('Você quer um:', lanche)\n",
+        "print()\n",
+        "a =  type('Huel')\n",
+        "b =  type(5)\n",
+        "c =  type(57.2)\n",
+        "print('A variável Huel é do tipo:',a)\n",
+        "print('A variável b é do tipo:' ,b)\n",
+        "print('e a variável c é dot tipo:', c)"
+      ]
+    }
+  ]
+}
